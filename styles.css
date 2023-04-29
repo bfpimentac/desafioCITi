@@ -1,0 +1,64 @@
+body {
+background-image: url(imagemdefundo.jpg);
+}
+
+h1 {
+color: purple;
+}
+
+.minha-foto {
+border-radius: 10%;
+height: 50vh;
+}
+
+.embrulho-do-titulo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.minha-div-de-embrulho {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.minha-bio {
+    background-color:Purple;
+    margin: 15px 20px;
+    padding: 10px;
+    border: 5px solid rgb(156, 4, 156);
+    border-radius: 5%;
+    width: 50vh;
+    box-shadow: 2px 5px 20px black; 
+}
+
+@media (max-width: 600px)
+{
+   
+    
+
+   .minha-foto {
+    border-radius: 10%;
+   }
+
+   .minha-div-de-embrulho {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .minha-bio {
+    height: 40vh;
+    font-size: 19px;
+}
+}
